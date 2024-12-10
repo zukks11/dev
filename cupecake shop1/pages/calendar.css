@@ -1,0 +1,425 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    width: 100%;
+    height: 400px;
+    background-color: #F9D195;
+}
+
+.log-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: flex-end; droebit */
+    padding:9px 60px;
+ }
+
+   
+.login {
+    height: 38px;
+    gap: 10px;
+    padding: 4px 8px;
+    display: flex;
+    width: 1005px;
+    justify-content: end;
+      
+}
+
+.login p:hover{
+transition: 0.5s;
+color:#875e20 ;
+cursor: pointer;
+}
+
+
+
+
+/* new nav bar */
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-card {
+    width: 125px;
+    height: 125px;
+    background-color: #99E3EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-card img{
+    width: 80px;
+    height: 90px;
+}
+
+.frame-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 999;
+}
+
+.frame {
+    width: 425px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    filter: invert(1);
+}
+
+.text-card {
+    color: #68391A;
+    font-family: 'Overlock', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    z-index: 9;
+    margin-top: -10px;
+}
+
+.text-card2 {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overlock', sans-serif;
+    font-size: 25px;
+    margin-top: -10px;
+
+}
+
+/* menu bar */
+/* start */
+
+
+.home a {
+    width: 186px;
+    height: 39px;
+    color: #67BDC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    width: 185px;
+    height: 39px;
+    border: 3px solid #99E3EC;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menu li:hover {
+    color: #99E3EC;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.yellow-card    {
+    background-color: #F9D195;
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+}
+
+.white-back {
+    width: 987px;
+    height: 900px;
+    background-color:  white;
+    border: 1px solid red;
+}
+
+.white-back a {
+    display: flex;
+    gap: 10px;
+}
+
+/* white back start  */
+
+
+.back  {
+    display: flex;
+    padding: 30px 50px;
+    font-size: 17px;
+    color: #68391A;
+    gap: 10px;
+}
+
+.back p {
+    color: #68391A;
+}
+
+
+ a {
+    text-decoration: none;
+    list-style-type:none;
+}
+
+
+.title1 {
+   width: 880px;
+   height: 46.55px;
+   color: #68391A;
+   font-size: 35px;
+   margin: 0px 0px 16px;
+   display: flex;
+   justify-content: center;
+   padding: 80px 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+.title2 {
+    width: 880px;
+    height: 25.5px;
+    color: #68391A;
+    font-size: 17px;
+    margin: 0px 0px 16px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* i start calendar */
+
+
+.calendar-card {
+    width: 500px;
+    height: 500px;
+}
+
+.title-card {
+ display:flex;
+ justify-content: center;
+ padding: 20px 0;
+ gap: 10px;
+ font-family: 'Roboto', sans-serif;
+}
+
+table,th,td {
+ text-align:  center;
+ font: 17px;
+ border-collapse: collapse;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+tr,th, td {
+    padding: 10px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+td:hover {
+    background-color: rgb(103, 189, 199);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+
+
+
+.line {
+    border-bottom: 1px solid black;
+    width: 900px;
+    margin: auto;
+}
+
+.line2 {
+    border-bottom: 1px solid black;
+    width: 900px;
+    margin-top: 100px;
+    margin-left:40px;
+}
+
+
+/* right side start */
+
+
+
+
+
+
+
+/* i start button click */
+
+
+    
+
+.check-but button {
+    background-color: #946A4E;
+    color: #FFFFF9;
+    width: 880px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Overlock', sans-serif;
+
+}
+
+.check-but {
+   padding: 40px 50px;
+   border-bottom: none;
+}
+
+
+
+
+
+
+
+/* i start stars line */
+
+.stars-form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.m-star {
+    font-size: 300%;
+    color: white;
+}
+
+.the-end {
+    color: #68391A;
+    display: flex;
+    justify-content: center;
+}
+
+.the-end a {
+    color: #68391A;
+}
+
+
+@media screen and (max-width:767px) {
+        
+    body {
+        background-color: #e2400a;
+
+    }
+
+    .white-back {
+        background-color: white;
+        height: 850px;
+        width: 350px;
+        margin-top: 70px;
+        border:2px solid #67BDC7;
+    }
+
+    .title1 {
+        width: 240px;
+        height: 85.09px;
+        color: #68391A;
+        font-size: 32px;
+        padding: 0px 0px 16px;
+        margin-left: 50px;
+    }
+
+    .title2 {
+        width: 240px;
+        height: 39.19px;
+        color: #68391A;
+        font-size: 14px;
+        padding: 0px 0px 16px;
+        margin-top: 55px;
+       margin-left: 55px;
+    }
+
+    .line {
+        width: 240px;
+    }
+
+    .calendar-card {
+        width: 280px;
+        height: 250px;
+       margin-left: 30px;
+    }
+
+    .line2  {
+        width: 240px;
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+
+    td:hover {
+        background-color: #67BDC7;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+    .check-but button {
+        width: 240px;
+        height: 40px;
+        margin-left: -25px;
+    }
+
+
+    .stars-form {
+        margin-top: 400px;
+        margin-left: -320px;
+    }
+
+   .m-star {
+    font-size: 400%;
+   }
+
+   .the-end a{
+    color: #68391A;
+   }
+
+   .the-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 0 90px;
+}
+
+
+}
+
+
+
+
+
+

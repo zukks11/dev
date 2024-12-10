@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 400px;
+    background-color: #F9D195;
+}
+
+.log-on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: flex-end; droebit */
+    padding:9px 60px;
+ }
+
+   
+.login {
+    height: 38px;
+    gap: 10px;
+    padding: 4px 8px;
+    display: flex;
+    width: 1005px;
+    justify-content: end;
+      
+}
+
+.login p:hover{
+transition: 0.5s;
+color:#875e20 ;
+cursor: pointer;
+}
+
+
+
+
+/* new nav bar  */
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-card {
+    width: 125px;
+    height: 125px;
+    background-color: #99E3EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-card img{
+    width: 80px;
+    height: 90px;
+}
+
+.frame-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    position: relative;
+    z-index: 999;
+}
+
+.frame {
+    width: 425px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    filter: invert(1);
+}
+
+.text-card {
+    color: #68391A;
+    font-family: 'Overlock', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    z-index: 9;
+    margin-top: -10px;
+}
+
+.text-card2 {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overlock', sans-serif;
+    font-size: 25px;
+    margin-top: -10px;
+
+}
+
+/* menu bar */
+/* start */
+
+.home a {
+    width: 186px;
+    height: 39px;
+    color: #67BDC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu li {
+    width: 185px;
+    height: 39px;
+    border: 3px solid #99E3EC;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menu li:hover {
+    color: #99E3EC;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* second line  */
+
+.yellow-card     {
+    background-color: #F9D195;
+    width:100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.cake-cent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    gap: 25px;
+}
+
+
+.middle-card {
+    width: 1000px;
+    height: 1050px;
+    background-color: white;
+
+}
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  
+}
+
+.cakes {
+    color: #68391A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+
+.flavors {
+    color: #68391A;
+    color: #67BDC7;
+    
+}
+
+/* menu-contianer start */
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.middle-card {
+    flex-wrap: wrap;
+}
+
+.one-card {
+    width: 260px;
+    height: 369px;
+
+}
+
+.one-card img {
+    width: 258.33px;
+    height: 258.33px;
+}
+
+.one-text {
+    width: 258px;
+    height: 20px;
+    font-size: 19px;
+    color: #24211F;
+    display: flex;
+    justify-content: center;
+}
+
+.two-text {
+    width: 258px;
+    height: 48px;
+    font-size: 15px;
+    color: #68391A;
+    padding: 9px 20px;
+}
+
+.three-text {
+    width: 258px;
+    height: 18px;
+    color: #68391A;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+
+.six-card {
+
+    width: 258px;
+    height: 370px;
+}
+
+.five-text {
+    width: 258px;
+}
+
+
+.five-text p {
+    text-align: center;
+}
+
+
+
+
+.middle1 {
+    font-size: 300%;
+    color: white;
+}
+
+.star1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.the-end {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #68391A;
+}
+
+.the-end a{
+    color: #68391A;
+}
+
+
+@media screen and (max-width:767px) {
+   
+    nav {
+        width: 500px;
+        height: 460px;
+    }
+
+    section {
+        width: 250px;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .log-on {
+        margin-right: 50px;
+    }
+    
+    .logo-card {
+        width: 125px;
+        height: 125px;
+        background-color: #99E3EC;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo-card img{
+        width: 80px;
+        height: 90px;
+    }
+    
+    .frame-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+        position: relative;
+        z-index: 999;
+    }
+    
+    .frame {
+        width: 298px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        filter: invert(1);
+    }
+    
+    .text-card {
+        color: #68391A;
+        font-family: 'Overlock', sans-serif;
+        font-size: 23px;
+        position: absolute;
+        z-index: 9;
+    }
+    
+    .text-card2 {
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Overlock', sans-serif;
+        font-size: 20px;
+        margin-top: -20px;
+    
+    }
+
+           
+    .middle-card {
+        width:300px;
+        height: 2600px;
+        background-color: white;
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        
+    }
+
+    .middle2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cakes {
+        color: #68391A;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        
+    }
+    
+    .flavors {
+        color: #67BDC7;
+        
+    }
+
+.middle1 {
+    font-size: 400%;
+    color: white;
+}
+
+body {
+    background-color: #F9D195;
+    width: 100%;
+    height: 3300px;
+}
+      
+.star1 {
+    display: none;
+}
+}
+
+
+
+
